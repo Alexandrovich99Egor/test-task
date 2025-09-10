@@ -1,0 +1,119 @@
+.history-section-wrapper {
+	padding: 50px 100px 80px 40px;
+	margin-top: 15px;
+	@media screen and (max-width: 1600px) {
+		padding: 40px 24px 80px 24px;
+	}
+
+	.history-block-wrapper {
+		position: relative;
+		padding: 40px 0 40px 40px;
+		border-top: 2px solid #fff;
+		border-left: 2px solid #fff;
+		@media screen and (max-width: 1600px) {
+			padding: 24px 0 24px 24px;
+		}
+
+		&:first-child {
+			&::before {
+				content: '';
+				position: absolute;
+				right: calc(100% - 11px);
+				bottom: 100%;
+				width: 25px;
+				height: 52px;
+				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27.195 53.998'%3E%3Cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M1.416 13 13.783 1l12 12m-11.867 1.998v38h.5'/%3E%3C/svg%3E");
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: contain;
+			}
+		}
+
+		&:last-child {
+			padding-bottom: 0;
+			border-left-color: transparent;
+
+			&::after,
+			&::before {
+				content: '';
+				position: absolute;
+			}
+
+			&::before {
+				top: -2px;
+				right: 100%;
+				width: 2px;
+				height: calc(100% - 12px);
+				background-color: #fff;
+			}
+
+			&::after {
+				bottom: 14px;
+				left: 0;
+				width: 28px;
+				height: 2px;
+				background-color: #fff;
+			}
+		}
+
+		h2 {
+			font-size: 50px;
+			line-height: 70px;
+			font-weight: 500;
+			margin-bottom: 28px;
+			@media screen and (max-width: 921px) {
+				font-size: 38px;
+				line-height: 40px;
+			}
+			@media screen and (max-width: 620px) {
+				font-size: 28px;
+				line-height: 30px;
+			}
+		}
+
+		.history-list {
+			display: grid;
+			grid-gap: 24px;
+
+			.history-item {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 44px;
+
+				@media screen and (max-width: 921px) {
+					grid-template-columns: 1fr;
+				}
+
+				.history-content {
+					p {
+						font-size: 20px;
+						line-height: 30px;
+						font-weight: 500;
+						margin-bottom: 14px;
+						@media screen and (max-width: 620px) {
+							font-size: 18px;
+							line-height: 24px;
+						}
+
+						strong {
+							font-weight: 700;
+						}
+
+						&:last-child {
+							margin-bottom: 0;
+						}
+					}
+				}
+
+				.history-image {
+					img {
+						display: block;
+						width: 100%;
+						object-fit: cover;
+						height: 187px;
+					}
+				}
+			}
+		}
+	}
+}

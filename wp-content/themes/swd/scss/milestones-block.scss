@@ -1,0 +1,112 @@
+.milestones-section-wrapper {
+	position: relative;
+	padding: 80px 100px;
+	@media screen and (max-width: 1099px) {
+		padding: 80px 24px;
+	}
+
+	&__inner {
+		padding-inline: 20px;
+		border-bottom: 2px solid #fff;
+	}
+
+	.milestones-section-wrapper__slider {
+		position: initial;
+
+		.swiper-button-prev {
+			left: 76px;
+		}
+
+		.swiper-button-next {
+			right: 76px;
+		}
+
+		@media screen and (max-width: 1099px) {
+			.swiper-button-prev {
+				left: 6px;
+			}
+
+			.swiper-button-next {
+				right: 6px;
+			}
+		}
+
+		.swiper-button-prev, .swiper-button-next {
+			top: auto;
+			bottom: 60px;
+			user-select: none;
+			z-index: 5;
+
+			svg {
+				width: 24px;
+				height: 24px;
+			}
+
+			&::after {
+				content: none;
+			}
+		}
+
+		.swiper-pagination {
+			bottom: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			.swiper-pagination-bullet {
+				background-color: rgba(#fff, .5);
+				width: 16px;
+				height: 16px;
+				margin: 0 6px;
+				flex-shrink: 0;
+
+				&.swiper-pagination-bullet-active {
+					background-color: #fff;
+				}
+			}
+		}
+
+		.milestone-item {
+			padding: 0 40px 40px;
+			border-left: 2px solid #fff;
+			height: auto;
+
+			&__inner {
+				max-width: 374px;
+			}
+
+			.milestone-item-year {
+				font-size: 50px;
+				line-height: 70px;
+				font-weight: 500;
+				margin: 0 0 45px;
+				@media screen and (max-width: 921px) {
+					font-size: 42px;
+					line-height: 48px;
+				}
+
+				@media screen and (max-width: 620px) {
+					font-size: 32px;
+					line-height: 34px;
+				}
+			}
+
+			.milestone-item-description {
+				p {
+					margin: 0;
+					font-size: 20px;
+					line-height: 30px;
+					font-weight: 500;
+
+					strong {
+						font-weight: 700;
+					}
+
+					&:not(:first-child) {
+						margin-top: 13px;
+					}
+				}
+			}
+		}
+	}
+}

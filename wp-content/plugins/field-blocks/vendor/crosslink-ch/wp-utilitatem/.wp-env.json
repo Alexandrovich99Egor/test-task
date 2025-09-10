@@ -1,0 +1,5 @@
+{
+	"core": "WordPress/WordPress",
+	"plugins": [ "." ],
+	"phpVersion": "8.1"
+}

@@ -1,0 +1,19 @@
+.gallery-section-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 35px 40px;
+  margin: 55px 0 24px;
+}
+@media screen and (max-width: 921px) {
+  .gallery-section-wrapper {
+    margin: 40px 0 24px;
+    grid-gap: 24px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .gallery-section-wrapper {
+    grid-gap: 12px;
+  }
+}
+
+/*# sourceMappingURL=gallery-block.css.map */

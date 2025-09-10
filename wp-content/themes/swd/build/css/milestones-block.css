@@ -1,0 +1,99 @@
+.milestones-section-wrapper {
+  position: relative;
+  padding: 80px 100px;
+}
+@media screen and (max-width: 1099px) {
+  .milestones-section-wrapper {
+    padding: 80px 24px;
+  }
+}
+.milestones-section-wrapper__inner {
+  padding-inline: 20px;
+  border-bottom: 2px solid #fff;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider {
+  position: initial;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .swiper-button-prev {
+  left: 76px;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .swiper-button-next {
+  right: 76px;
+}
+@media screen and (max-width: 1099px) {
+  .milestones-section-wrapper .milestones-section-wrapper__slider .swiper-button-prev {
+    left: 6px;
+  }
+  .milestones-section-wrapper .milestones-section-wrapper__slider .swiper-button-next {
+    right: 6px;
+  }
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .swiper-button-prev, .milestones-section-wrapper .milestones-section-wrapper__slider .swiper-button-next {
+  top: auto;
+  bottom: 60px;
+  user-select: none;
+  z-index: 5;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .swiper-button-prev svg, .milestones-section-wrapper .milestones-section-wrapper__slider .swiper-button-next svg {
+  width: 24px;
+  height: 24px;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .swiper-button-prev::after, .milestones-section-wrapper .milestones-section-wrapper__slider .swiper-button-next::after {
+  content: none;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .swiper-pagination {
+  bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .swiper-pagination .swiper-pagination-bullet {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 16px;
+  height: 16px;
+  margin: 0 6px;
+  flex-shrink: 0;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .milestone-item {
+  padding: 0 40px 40px;
+  border-left: 2px solid #fff;
+  height: auto;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .milestone-item__inner {
+  max-width: 374px;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .milestone-item .milestone-item-year {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 500;
+  margin: 0 0 45px;
+}
+@media screen and (max-width: 921px) {
+  .milestones-section-wrapper .milestones-section-wrapper__slider .milestone-item .milestone-item-year {
+    font-size: 42px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .milestones-section-wrapper .milestones-section-wrapper__slider .milestone-item .milestone-item-year {
+    font-size: 32px;
+    line-height: 34px;
+  }
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .milestone-item .milestone-item-description p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .milestone-item .milestone-item-description p strong {
+  font-weight: 700;
+}
+.milestones-section-wrapper .milestones-section-wrapper__slider .milestone-item .milestone-item-description p:not(:first-child) {
+  margin-top: 13px;
+}
+
+/*# sourceMappingURL=milestones-block.css.map */

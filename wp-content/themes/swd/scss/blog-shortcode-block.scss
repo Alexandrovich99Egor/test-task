@@ -1,0 +1,123 @@
+.blog-section-wrapper {
+	padding: 0 100px 80px 40px;
+
+	.news-item {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 40px;
+		max-width: 1128px;
+
+		&:not(:first-child) {
+			margin-top: 40px;
+		}
+
+		.news-item-thumb {
+			&, img {
+				max-width: 544px;
+				max-height: 408px;
+				display: block;
+				width: 100%;
+				object-fit: cover;
+				aspect-ratio: 1.33333333;
+			}
+		}
+
+		.news-content {
+			.news-item-date {
+				display: flex;
+				flex-wrap: wrap;
+				gap: 8px;
+				margin-bottom: 14px;
+				font-size: 20px;
+				line-height: 30px;
+				font-weight: 500;
+			}
+
+			.news-item-title {
+				margin-bottom: 14px;
+				font-size: 32px;
+				line-height: 40px;
+				font-weight: 500;
+			}
+
+			.news-item-excerpt {
+				font-size: 20px;
+				line-height: 30px;
+				font-weight: 500;
+				margin-bottom: 55px;
+			}
+
+			a.button {
+				display: inline-flex;
+				font-size: 20px;
+				line-height: 30px;
+				font-weight: 500;
+				text-decoration: none;
+				color: #fff;
+				background-color: #e83f4b;
+				border-radius: 24px;
+				padding: 8px 30px;
+				transition: all 0.25s ease;
+
+				&:hover {
+					background-color: #ac2530;
+				}
+			}
+		}
+
+		@media screen and (max-width: 1270px) {
+			grid-gap: 24px;
+			grid-template-columns: 1fr;
+			&:not(:first-child) {
+				margin-top: 32px;
+			}
+			.news-item-thumb {
+				&, img {
+					max-width: 100%;
+					max-height: 408px;
+					aspect-ratio: 16/10;
+				}
+			}
+		}
+		@media screen and (max-width: 921px) {
+			.news-content {
+				.news-item-date {
+					margin-bottom: 12px;
+					font-size: 18px;
+					line-height: 24px;
+				}
+
+				.news-item-title {
+					margin-bottom: 12px;
+					font-size: 24px;
+					line-height: 28px;
+				}
+
+				.news-item-excerpt {
+					font-size: 18px;
+					line-height: 24px;
+					margin-bottom: 24px;
+				}
+
+				a.button {
+					font-size: 18px;
+					line-height: 24px;
+					border-radius: 24px;
+					padding: 8px 30px;
+				}
+			}
+		}
+		@media screen and (max-width: 478px) {
+			.news-content {
+				a.button {
+					width: 100%;
+					justify-content: center;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 1600px) {
+		padding: 0 24px 80px 24px;
+	}
+}

@@ -1,0 +1,25 @@
+.video-accordion-section-wrapper {
+  padding: 0 40px;
+}
+@media screen and (max-width: 1600px) {
+  .video-accordion-section-wrapper {
+    padding: 0 24px;
+  }
+}
+.video-accordion-section-wrapper .video-block-description, .video-accordion-section-wrapper .video-block-description p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+.video-accordion-section-wrapper .video-poster-section video {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.video-accordion-section-wrapper .video-block-description, .video-accordion-section-wrapper .video-poster-section {
+  margin-bottom: 55px;
+}
+
+/*# sourceMappingURL=video-accordion-block.css.map */

@@ -1,0 +1,27 @@
+/* Styles enqueued on all pages */
+.field-blocks-section {
+  display: flex;
+  justify-content: center;
+}
+
+.field-blocks-section.column_style_1 .column {
+  width: 50%;
+}
+
+.field-blocks-section.column_style_2 .column {
+  width: 33%;
+}
+
+.field-blocks-section.column_style_3 .column {
+  width: 25%;
+}
+
+.field-blocks-section.column_style_4 .column:first-of-type {
+  width: 33%;
+}
+
+.field-blocks-section.column_style_4 .column {
+  width: 66%;
+}
+
+/*# sourceMappingURL=common.css.map */

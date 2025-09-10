@@ -1,0 +1,11 @@
+{
+	"references": [
+		{
+			"path": [
+				"./js/general",
+				"./js/sliders"
+			]
+		}
+	],
+	"files": []
+}

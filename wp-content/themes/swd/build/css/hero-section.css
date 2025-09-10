@@ -1,0 +1,115 @@
+.ast-article-single > .entry-header {
+  display: none;
+}
+.ast-article-single .field-blocks-section.column_style_4 .column {
+  width: 100%;
+  max-width: 60%;
+}
+.ast-article-single .field-blocks-section.column_style_4 .column:first-of-type {
+  max-width: 40%;
+}
+.ast-article-single .field-blocks-section.column_style_4 .column:first-of-type .simple-text-section-wrapper {
+  padding: 80px 40px 80px 100px;
+  height: 100%;
+}
+.ast-article-single .field-blocks-section.column_style_4 .column:first-of-type .simple-text-section-wrapper h3 {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 500;
+  margin: 0 0 114px;
+}
+.ast-article-single .field-blocks-section.column_style_4 .column:first-of-type .simple-text-section-wrapper p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+.ast-article-single .field-blocks-section.column_style_4 .column video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  aspect-ratio: 16/9.52;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section .title-wrapper {
+  grid-area: 1/1/2/3;
+  width: 100%;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section .title-wrapper, .ast-article-single .field-blocks-section.column_style_1 .column .benefits-section .title-wrapper h3 {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 500;
+  margin: 0;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section .description-wrapper {
+  max-width: 398px;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section .description-wrapper, .ast-article-single .field-blocks-section.column_style_1 .column .benefits-section .description-wrapper p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section .benefits-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section .benefits-wrapper .benefits-item {
+  display: flex;
+  min-width: 414px;
+  align-items: center;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section .benefits-wrapper .benefits-item .benefits-item-title {
+  padding-inline: 25px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section .benefits-wrapper .benefits-item .benefits-item-icon img {
+  width: 57px;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section.left, .ast-article-single .field-blocks-section.column_style_1 .column .benefits-section.right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 44px;
+  height: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section.left {
+  padding-left: 100px;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section.left .description-wrapper {
+  grid-area: 2/1/3/2;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section.left .benefits-wrapper {
+  grid-area: 2/2/3/3;
+  margin: 0 0 0 auto;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section.left .benefits-item {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  border-radius: 100px 0 0 100px;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section.right {
+  padding-right: 100px;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section.right .title-wrapper {
+  padding-left: 20px;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section.right .benefits-wrapper {
+  grid-area: 2/1/3/2;
+  margin: 0 auto 0 0;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section.right .description-wrapper {
+  grid-area: 2/2/3/3;
+}
+.ast-article-single .field-blocks-section.column_style_1 .column .benefits-section.right .benefits-item {
+  justify-content: space-between;
+  border-radius: 0 100px 100px 0;
+}
+
+/*# sourceMappingURL=hero-section.css.map */

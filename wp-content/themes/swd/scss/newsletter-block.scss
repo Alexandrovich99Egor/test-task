@@ -1,0 +1,121 @@
+.newsletter-section-wrapper {
+	padding: 80px 100px;
+	display: grid;
+	align-items: flex-end;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 50px;
+
+	.newsletter-section-wrapper__title {
+		font-size: 50px;
+		line-height: 70px;
+		font-weight: 500;
+		color: #fff;
+		margin: 0 0 28px;
+		@media screen and (max-width: 921px) {
+			font-size: 42px;
+			line-height: 48px;
+		}
+
+		@media screen and (max-width: 620px) {
+			font-size: 32px;
+			line-height: 34px;
+		}
+	}
+
+	.description {
+		font-size: 20px;
+		line-height: 30px;
+		font-weight: 500;
+		max-width: 690px;
+		@media screen and (max-width: 921px) {
+			font-size: 18px;
+			line-height: 24px;
+		}
+	}
+
+	.newsletter-section-wrapper__form .wpcf7-form {
+		.wpcf7-not-valid-tip {
+			position: absolute;
+			top: calc(100% + 13px);
+			left: 40px;
+			font-size: 18px;
+			font-weight: 500;
+		}
+
+		> p {
+			position: relative;
+			margin: 0;
+			display: flex;
+
+			.wpcf7-form-control-wrap {
+				input {
+					padding: 10px 180px 10px 40px;
+					background-color: #7B7B7B;
+					border-radius: 42px;
+					border: 3px solid #fff;
+					color: #fff;
+
+					&, &::placeholder {
+						font-size: 20px;
+						line-height: 30px;
+						font-weight: 500;
+					}
+
+					&::placeholder {
+						color: rgba(#fff, .5);
+					}
+
+					@media screen and (max-width: 900px) {
+						padding: 10px 140px 10px 40px;
+					}
+					@media screen and (max-width: 786px) {
+						padding: 10px 120px 10px 24px !important;
+					}
+				}
+			}
+
+			.wpcf7-spinner {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+			.wpcf7-submit {
+				position: absolute;
+				z-index: 5;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				border: 3px solid #fff;
+				color: #fff;
+				background-color: #3D3D3D;
+				border-radius: 0 42px 42px 0;
+				font-size: 20px;
+				line-height: 30px;
+				font-weight: 500;
+				padding: 5px 67px 5px 24px;
+				transition: all .25s ease;
+				@media screen and (max-width: 921px) {
+					padding: 5px;
+					line-height: 1;
+				}
+
+				&:hover {
+					background-color: #575757;
+				}
+			}
+		}
+
+	}
+
+	@media screen and (max-width: 1600px) {
+		padding: 80px 24px;
+	}
+	@media screen and (max-width: 1100px) {
+		grid-template-columns: 1fr;
+		grid-gap: 32px;
+		max-width: 738px;
+		margin-inline: auto;
+	}
+}

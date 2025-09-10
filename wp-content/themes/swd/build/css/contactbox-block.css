@@ -1,0 +1,57 @@
+.contactbox-section-wrapper {
+  padding: 40px 24px;
+  text-align: center;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactbox-section-wrapper h2 {
+  margin: 0 0 15px;
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 700;
+}
+.contactbox-section-wrapper .contactbox-thumb {
+  margin-bottom: 24px;
+}
+.contactbox-section-wrapper .contactbox-thumb, .contactbox-section-wrapper .contactbox-thumb img {
+  display: block;
+  object-fit: cover;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.contactbox-section-wrapper h3, .contactbox-section-wrapper .job-title, .contactbox-section-wrapper a {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+@media screen and (max-width: 400px) {
+  .contactbox-section-wrapper h3, .contactbox-section-wrapper .job-title, .contactbox-section-wrapper a {
+    width: 100%;
+    hyphens: auto;
+  }
+}
+.contactbox-section-wrapper h3 {
+  font-weight: 700;
+}
+.contactbox-section-wrapper .job-title {
+  display: block;
+  margin-bottom: 14px;
+}
+.contactbox-section-wrapper a.email, .contactbox-section-wrapper a.phone {
+  display: block;
+  text-decoration: none;
+}
+.contactbox-section-wrapper a.email:hover, .contactbox-section-wrapper a.phone:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 1600px) {
+  .contactbox-section-wrapper {
+    margin-bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=contactbox-block.css.map */

@@ -1,0 +1,128 @@
+.news-section-wrapper {
+  padding: 80px 100px;
+}
+@media screen and (max-width: 1600px) {
+  .news-section-wrapper {
+    padding: 80px 24px;
+  }
+}
+.news-section-wrapper .news-section-wrapper__title {
+  text-align: center;
+  margin: 0 0 44px;
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 500;
+}
+@media screen and (max-width: 921px) {
+  .news-section-wrapper .news-section-wrapper__title {
+    font-size: 42px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .news-section-wrapper .news-section-wrapper__title {
+    font-size: 32px;
+    line-height: 34px;
+  }
+}
+.news-section-wrapper .news-section-wrapper__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+@media screen and (max-width: 1500px) {
+  .news-section-wrapper .news-section-wrapper__inner {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 48px;
+  }
+}
+.news-section-wrapper .news-section-wrapper__inner .news-column {
+  width: 100%;
+}
+.news-section-wrapper .news-section-wrapper__inner .news-column .news-item-excerpt, .news-section-wrapper .news-section-wrapper__inner .news-column .news-item-date {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.news-section-wrapper .news-section-wrapper__inner .news-column.featured {
+  max-width: 690px;
+}
+.news-section-wrapper .news-section-wrapper__inner .news-column.featured .news-item-thumb {
+  margin-bottom: 24px;
+}
+.news-section-wrapper .news-section-wrapper__inner .news-column.featured .news-item-thumb, .news-section-wrapper .news-section-wrapper__inner .news-column.featured .news-item-thumb img {
+  display: flex;
+  max-width: 544px;
+  max-height: 315px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 1500px) {
+  .news-section-wrapper .news-section-wrapper__inner .news-column.featured .news-item-thumb, .news-section-wrapper .news-section-wrapper__inner .news-column.featured .news-item-thumb img {
+    aspect-ratio: 16/9;
+    max-width: 100%;
+    max-height: 252px;
+  }
+}
+.news-section-wrapper .news-section-wrapper__inner .news-column.featured .news-item-title {
+  margin: 10px 0;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 500;
+}
+.news-section-wrapper .news-section-wrapper__inner .news-column.list {
+  max-width: 833px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.news-section-wrapper .news-section-wrapper__inner .news-column.list .news-item {
+  display: flex;
+  gap: 40px;
+}
+.news-section-wrapper .news-section-wrapper__inner .news-column.list .news-item:not(:first-child) {
+  margin-top: 110px;
+}
+@media screen and (max-width: 1500px) {
+  .news-section-wrapper .news-section-wrapper__inner .news-column.list .news-item {
+    flex-direction: column;
+  }
+  .news-section-wrapper .news-section-wrapper__inner .news-column.list .news-item:not(:first-child) {
+    margin-top: 48px;
+  }
+}
+.news-section-wrapper .news-section-wrapper__inner .news-column.list .news-item .news-item-title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 5px 0 25px;
+}
+.news-section-wrapper .news-section-wrapper__inner .news-column.list .news-item .news-item-thumb, .news-section-wrapper .news-section-wrapper__inner .news-column.list .news-item .news-item-thumb img {
+  flex-shrink: 0;
+  display: block;
+  aspect-ratio: 1;
+  object-fit: cover;
+  max-width: 252px;
+  max-height: 252px;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1500px) {
+  .news-section-wrapper .news-section-wrapper__inner .news-column.list .news-item .news-item-thumb, .news-section-wrapper .news-section-wrapper__inner .news-column.list .news-item .news-item-thumb img {
+    aspect-ratio: 16/9;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .news-section-wrapper .news-section-wrapper__inner .news-column.featured, .news-section-wrapper .news-section-wrapper__inner .news-column.list {
+    max-width: 768px;
+  }
+}
+.news-section-wrapper .news-section-wrapper__inner .news-column a.button {
+  margin-top: 55px;
+}
+
+/*# sourceMappingURL=news-block.css.map */

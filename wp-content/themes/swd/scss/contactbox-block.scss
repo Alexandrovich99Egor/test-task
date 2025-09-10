@@ -1,0 +1,62 @@
+.contactbox-section-wrapper {
+	padding: 40px 24px;
+	text-align: center;
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	h2 {
+		margin: 0 0 15px;
+		font-size: 24px;
+		line-height: 35px;
+		font-weight: 700;
+	}
+
+	.contactbox-thumb {
+		margin-bottom: 24px;
+
+		&, img {
+			display: block;
+			object-fit: cover;
+			width: 225px;
+			height: 225px;
+			border-radius: 50%;
+			overflow: hidden;
+		}
+	}
+
+	h3, .job-title, a {
+		font-size: 20px;
+		line-height: 30px;
+		font-weight: 500;
+		@media screen and (max-width: 400px) {
+			width: 100%;
+			hyphens: auto;
+		}
+	}
+
+	h3 {
+		font-weight: 700;
+	}
+
+	.job-title {
+		display: block;
+		margin-bottom: 14px;
+	}
+
+	a {
+		&.email, &.phone {
+			display: block;
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+
+	@media screen and (max-width: 1600px) {
+		margin-bottom: 0;
+	}
+}

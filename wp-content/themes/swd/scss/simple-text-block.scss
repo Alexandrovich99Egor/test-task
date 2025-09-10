@@ -1,0 +1,118 @@
+.simple-text-section-wrapper {
+	padding: 80px 40px 80px 100px;
+	height: 100%;
+
+	h2, h3 {
+		font-size: 50px;
+		line-height: 70px;
+		font-weight: 500;
+		@media screen and (max-width: 921px) {
+			font-size: 42px;
+			line-height: 48px;
+		}
+
+		@media screen and (max-width: 620px) {
+			font-size: 32px;
+			line-height: 34px;
+		}
+	}
+
+	h3 {
+		margin: 0 0 96px;
+	}
+
+	h2 {
+		margin: 0 0 36px;
+	}
+
+	p {
+		font-size: 20px;
+		line-height: 30px;
+		font-weight: 500;
+		margin: 0;
+
+		strong {
+			font-weight: 700;
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 24px;
+		}
+
+		@media screen and (max-width: 921px) {
+			font-size: 18px;
+			line-height: 24px;
+		}
+	}
+
+	.content {
+		overflow: hidden;
+	}
+
+	a.button {
+		margin-top: 55px;
+	}
+
+	table {
+		margin: 24px 0;
+
+		&:first-of-type {
+			margin-top: 55px;
+		}
+
+		&:last-of-type {
+			margin-bottom: 40px;
+		}
+
+		thead {
+			tr {
+				background-color: #7B7B7B;
+				font-weight: 700;
+			}
+		}
+
+		tr {
+			padding: 8px 12px;
+			font-size: 20px;
+			line-height: 30px;
+			font-weight: 500;
+		}
+	}
+
+	@media screen and (max-width: 1600px) {
+		padding: 80px 24px;
+		h2, h3 {
+			font-size: 30px;
+			line-height: 40px;
+		}
+		h3 {
+			margin: 0 0 42px;
+		}
+	}
+
+	@media screen and (max-width: 600px) {
+		table {
+			height: auto !important;
+			width: 100% !important;
+			display: block;
+			overflow: auto;
+
+			thead, tbody {
+				display: block;
+				width: 600px;
+
+				tr {
+					display: flex;
+					height: auto !important;
+					width: auto !important;
+					padding: 0 !important;
+
+					td {
+						height: auto !important;
+					}
+				}
+			}
+		}
+
+	}
+}

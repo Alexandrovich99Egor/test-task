@@ -1,0 +1,105 @@
+.simple-text-section-wrapper {
+  padding: 80px 40px 80px 100px;
+  height: 100%;
+}
+.simple-text-section-wrapper h2, .simple-text-section-wrapper h3 {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 500;
+}
+@media screen and (max-width: 921px) {
+  .simple-text-section-wrapper h2, .simple-text-section-wrapper h3 {
+    font-size: 42px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .simple-text-section-wrapper h2, .simple-text-section-wrapper h3 {
+    font-size: 32px;
+    line-height: 34px;
+  }
+}
+.simple-text-section-wrapper h3 {
+  margin: 0 0 96px;
+}
+.simple-text-section-wrapper h2 {
+  margin: 0 0 36px;
+}
+.simple-text-section-wrapper p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+.simple-text-section-wrapper p strong {
+  font-weight: 700;
+}
+.simple-text-section-wrapper p:not(:last-child) {
+  margin-bottom: 24px;
+}
+@media screen and (max-width: 921px) {
+  .simple-text-section-wrapper p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.simple-text-section-wrapper .content {
+  overflow: hidden;
+}
+.simple-text-section-wrapper a.button {
+  margin-top: 55px;
+}
+.simple-text-section-wrapper table {
+  margin: 24px 0;
+}
+.simple-text-section-wrapper table:first-of-type {
+  margin-top: 55px;
+}
+.simple-text-section-wrapper table:last-of-type {
+  margin-bottom: 40px;
+}
+.simple-text-section-wrapper table thead tr {
+  background-color: #7B7B7B;
+  font-weight: 700;
+}
+.simple-text-section-wrapper table tr {
+  padding: 8px 12px;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+@media screen and (max-width: 1600px) {
+  .simple-text-section-wrapper {
+    padding: 80px 24px;
+  }
+  .simple-text-section-wrapper h2, .simple-text-section-wrapper h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .simple-text-section-wrapper h3 {
+    margin: 0 0 42px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .simple-text-section-wrapper table {
+    height: auto !important;
+    width: 100% !important;
+    display: block;
+    overflow: auto;
+  }
+  .simple-text-section-wrapper table thead, .simple-text-section-wrapper table tbody {
+    display: block;
+    width: 600px;
+  }
+  .simple-text-section-wrapper table thead tr, .simple-text-section-wrapper table tbody tr {
+    display: flex;
+    height: auto !important;
+    width: auto !important;
+    padding: 0 !important;
+  }
+  .simple-text-section-wrapper table thead tr td, .simple-text-section-wrapper table tbody tr td {
+    height: auto !important;
+  }
+}
+
+/*# sourceMappingURL=simple-text-block.css.map */

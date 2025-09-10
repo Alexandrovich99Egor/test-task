@@ -1,0 +1,16 @@
+.field-blocks-slider .field-blocks-slider__image {
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+}
+.field-blocks-slider .field-blocks-slider__image > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.field-blocks-slider swiper-slide {
+  position: relative;
+  z-index: 0;
+}
+
+/*# sourceMappingURL=slider.css.map */
